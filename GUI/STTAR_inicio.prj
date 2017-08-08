@@ -1,0 +1,176 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3881700521" file="C:\Arthur\UnB (FGA)\6º Semestre\Termodinâmica\2ª\Trabalho\STTAR\GUI\STTAR_inicio.prj" location="C:\Arthur\UnB (FGA)\6º Semestre\Termodinâmica\2ª\Trabalho\STTAR\GUI" name="STTAR_inicio" preferred-package-location="C:\Arthur\UnB (FGA)\6º Semestre\Termodinâmica\2ª\Trabalho\STTAR\GUI\STTAR_inicio\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>STTAR_inicio</param.appname>
+    <param.icon>${PROJECT_ROOT}\STTAR_inicio_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\STTAR_inicio_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\STTAR_inicio_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\STTAR_inicio_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\STTAR_inicio_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>2.4</param.version>
+    <param.authnamewatermark>Arthur Wernke</param.authnamewatermark>
+    <param.email>arthur.wernke@hotmail.com</param.email>
+    <param.company />
+    <param.summary />
+    <param.description>O software STTAR destina-se a consulta as propriedades termodinâmica dos fluídos R134a, água e ar.</param.description>
+    <param.screenshot>C:\Arthur\UnB (FGA)\6º Semestre\Termodinâmica\2ª\Trabalho\Imagens e logos\Logo\Quadrado\Tamanho Exato\p400x400.jpg</param.screenshot>
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\STTAR_inicio\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\STTAR_inicio\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\STTAR_inicio\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\STTAR_inicio\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>Instalador_STTAR</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.company />
+      <param.summary />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\STTAR_inicio.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\AbrirTabela.m</file>
+      <file>${PROJECT_ROOT}\Autores.fig</file>
+      <file>${PROJECT_ROOT}\Autores.m</file>
+      <file>${PROJECT_ROOT}\Borda.jpg</file>
+      <file>${PROJECT_ROOT}\Calculadora_Dimensoes.fig</file>
+      <file>${PROJECT_ROOT}\Calculadora_Dimensoes.m</file>
+      <file>${PROJECT_ROOT}\CalculoComTitulo.m</file>
+      <file>${PROJECT_ROOT}\CarregamentoDinamico.m</file>
+      <file>${PROJECT_ROOT}\Conversoes.fig</file>
+      <file>${PROJECT_ROOT}\Conversoes.m</file>
+      <file>${PROJECT_ROOT}\Dados de Entrada.xlsx</file>
+      <file>${PROJECT_ROOT}\Dados de Saída.xlsx</file>
+      <file>${PROJECT_ROOT}\Encerrar.m</file>
+      <file>${PROJECT_ROOT}\Erros.pdf</file>
+      <file>${PROJECT_ROOT}\Gas ideal Ar (A17).xlsx</file>
+      <file>${PROJECT_ROOT}\Grafico_liqu.fig</file>
+      <file>${PROJECT_ROOT}\Grafico_liqu.jpg</file>
+      <file>${PROJECT_ROOT}\Grafico_liqu.m</file>
+      <file>${PROJECT_ROOT}\Grafico_mist.fig</file>
+      <file>${PROJECT_ROOT}\Grafico_mist.jpg</file>
+      <file>${PROJECT_ROOT}\Grafico_mist.m</file>
+      <file>${PROJECT_ROOT}\Grafico_vapo.fig</file>
+      <file>${PROJECT_ROOT}\Grafico_vapo.jpg</file>
+      <file>${PROJECT_ROOT}\Grafico_vapo.m</file>
+      <file>${PROJECT_ROOT}\Interpolacao.m</file>
+      <file>${PROJECT_ROOT}\InterpolacaoCompleta.m</file>
+      <file>${PROJECT_ROOT}\InterpolacaoCompletaAr.m</file>
+      <file>${PROJECT_ROOT}\InterpolacaoCompletaVapor.m</file>
+      <file>${PROJECT_ROOT}\InterpolacaoEntreTabelaCompletaVapor.m</file>
+      <file>${PROJECT_ROOT}\InverteMatriz.m</file>
+      <file>${PROJECT_ROOT}\LEIA ME.txt</file>
+      <file>${PROJECT_ROOT}\Manual de Instruções.pdf</file>
+      <file>${PROJECT_ROOT}\NovaPropriedade.m</file>
+      <file>${PROJECT_ROOT}\R134a Saturada Pressão (A12).xlsx</file>
+      <file>${PROJECT_ROOT}\R134a Saturada Temperatura (A11).xlsx</file>
+      <file>${PROJECT_ROOT}\R134a Vapor (A13).xlsx</file>
+      <file>${PROJECT_ROOT}\STTAR.fig</file>
+      <file>${PROJECT_ROOT}\STTAR.m</file>
+      <file>${PROJECT_ROOT}\STTAR_inicio.fig</file>
+      <file>${PROJECT_ROOT}\STTAR_inicio.m</file>
+      <file>${PROJECT_ROOT}\STTAR_Logo.jpg</file>
+      <file>${PROJECT_ROOT}\STTAR_Logo_titulo.jpg</file>
+      <file>${PROJECT_ROOT}\Tabelas Completa (Çengel).pdf</file>
+      <file>${PROJECT_ROOT}\TabelaVaporInterpolada3Propri.m</file>
+      <file>${PROJECT_ROOT}\teste.fig</file>
+      <file>${PROJECT_ROOT}\VerificarTabela.m</file>
+      <file>${PROJECT_ROOT}\Água Liquido Comprimido (A7).xlsx</file>
+      <file>${PROJECT_ROOT}\Água Saturada Pressão (A5).xlsx</file>
+      <file>${PROJECT_ROOT}\Água Saturada Temperatura (A4).xlsx</file>
+      <file>${PROJECT_ROOT}\Água Vapor (A6).xlsx</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\STTAR_inicio\for_testing" name="STTAR_inicio.exe" optional="false">C:\Arthur\UnB (FGA)\6º Semestre\Termodinâmica\2ª\Trabalho\STTAR\GUI\STTAR_inicio\for_testing\STTAR_inicio.exe</file>
+      <file location="${PROJECT_ROOT}\STTAR_inicio\for_testing" name="splash.png" optional="false">C:\Arthur\UnB (FGA)\6º Semestre\Termodinâmica\2ª\Trabalho\STTAR\GUI\STTAR_inicio\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\STTAR_inicio\for_testing" name="readme.txt" optional="true">C:\Arthur\UnB (FGA)\6º Semestre\Termodinâmica\2ª\Trabalho\STTAR\GUI\STTAR_inicio\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
